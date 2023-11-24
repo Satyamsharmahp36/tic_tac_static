@@ -1,0 +1,47 @@
+/* importing the fonts from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Nunito+Sans:opsz@6..12&family=Poppins&display=swap');
+
+body{
+    background-color: #2289F5;
+}
+
+.box{
+    height: 7vw;
+    width: 7vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.heading{
+    color: #FAB201;
+    font-family: 'Fredoka';
+    font-size: 8vw;
+    -webkit-text-stroke: 4px white;
+    margin: 4vw;
+}
+
+#gridBoxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 8px;
+    row-gap:8px;
+
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottom{
+    margin-top: 3vw;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Fredoka';
+    -webkit-text-stroke: 2px white;
+}
